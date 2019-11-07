@@ -29,4 +29,4 @@ There is no malicious activity in the training data however there are a small nu
 - This command will build,train the model using training dataset and then get the outliers in
   test data set.
 - An output file "output.csv" is generated in which a label is assigned to each event. Label
-  "False" signifies that event is deemed benign and label "True" signifies that event is        malicious. A score is also assigned to each event representing how anomalous the model believes each event to be.
+  "False" signifies that event is deemed benign and label "True" signifies that event is malicious. The score corresponding to each event represents how malicous an event is. High value represents highly malicious sample. 
